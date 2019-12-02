@@ -3,7 +3,7 @@ package _20191202;
 /**
  * @author yuanyiwen
  * @create 2019-12-02 16:19
- * @description 10.正则表达式匹配
+ * @description 10.正则表达式匹配 https://leetcode-cn.com/problems/regular-expression-matching/
  */
 class Solution {
     public boolean isMatch(String s, String p) {
