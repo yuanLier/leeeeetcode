@@ -11,7 +11,7 @@ class Solution {
             return "";
         }
         String prefix = strs[0];
-        for (int i = 1; i < strs.length; i++)
+        for (int i = 1; i < strs.length; i++) {
             // 如果不是当前字符串的前缀
             while (strs[i].indexOf(prefix) != 0) {
                 // 就往前减一个
@@ -20,6 +20,7 @@ class Solution {
                     return "";
                 }
             }
+        }
         return prefix;
     }
 }
