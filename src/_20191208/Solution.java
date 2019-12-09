@@ -3,7 +3,7 @@ package _20191208;
 /**
  * @author yuanyiwen
  * @create 2019-12-08 17:06
- * @description 12.合并两个有序链表 https://leetcode-cn.com/problems/merge-two-sorted-lists/
+ * @description 21.合并两个有序链表 https://leetcode-cn.com/problems/merge-two-sorted-lists/
  */
 class Solution {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
